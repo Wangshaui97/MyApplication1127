@@ -103,9 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 handler.sendMessage(handler.obtainMessage(UPDATE_UI,bean.getData().getTitle()));
             }
         });
-
     }
-
 //    private List<String> getTitles(Bean bean) {
 //        List<String> strings = new ArrayList<>();
 //        strings.add(bean.getData().getTitle());
