@@ -8,7 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PullToRefreshlibrary" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/day1rikao" />
+            <option value="$PROJECT_DIR$/day2lianxi1" />
+            <option value="$PROJECT_DIR$/day2rikao" />
+            <option value="$PROJECT_DIR$/day3rikao" />
             <option value="$PROJECT_DIR$/dome2" />
           </set>
         </option>

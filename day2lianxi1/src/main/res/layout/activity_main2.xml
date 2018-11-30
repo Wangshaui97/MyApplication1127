@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/chart_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入第一个柱状图的值"
+        />
+    <EditText
+        android:id="@+id/chart_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入第二个柱状图的值"
+        app:layout_constraintTop_toBottomOf="@+id/chart_one"
+        />
+
+    <EditText
+        android:id="@+id/chart_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入第三个柱状图的值"
+        app:layout_constraintTop_toBottomOf="@+id/chart_two"
+        />
+    <Button
+        android:id="@+id/chart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击生成柱状图"
+        app:layout_constraintTop_toBottomOf="@+id/chart_three"
+        />
+    <Button
+        android:id="@+id/Luckpan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击查看幸运大转盘"
+        app:layout_constraintTop_toBottomOf="@+id/chart_button"
+        />
+    <Button
+        android:id="@+id/rundom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击查看随机数"
+        app:layout_constraintTop_toBottomOf="@+id/Luckpan_button"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,1 +1,1 @@
-include ':app', ':dome2'
+include ':app', ':dome2', ':day1rikao', ':day2lianxi1', ':day2rikao', ':PullToRefreshlibrary', ':day3rikao'
