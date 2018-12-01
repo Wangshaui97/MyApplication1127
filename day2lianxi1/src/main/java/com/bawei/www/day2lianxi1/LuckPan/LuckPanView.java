@@ -39,11 +39,7 @@ public class LuckPanView extends View {
         rectF.top=50;
         rectF.left=50;
         rectF.right=400;
-
-
     }
-
-
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);

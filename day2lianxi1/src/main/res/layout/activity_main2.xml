@@ -10,13 +10,14 @@
         android:id="@+id/chart_one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="请输入第一个柱状图的值"
+        android:text="0"
+
         />
     <EditText
         android:id="@+id/chart_two"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="请输入第二个柱状图的值"
+        android:text="0"
         app:layout_constraintTop_toBottomOf="@+id/chart_one"
         />
 
@@ -24,7 +25,7 @@
         android:id="@+id/chart_three"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="请输入第三个柱状图的值"
+        android:text="0"
         app:layout_constraintTop_toBottomOf="@+id/chart_two"
         />
     <Button
@@ -47,6 +48,13 @@
         android:layout_height="wrap_content"
         android:text="点击查看随机数"
         app:layout_constraintTop_toBottomOf="@+id/Luckpan_button"
+        />
+    <Button
+        android:id="@+id/water_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击查看瀑布流"
+        app:layout_constraintTop_toBottomOf="@+id/rundom_button"
         />
 
 

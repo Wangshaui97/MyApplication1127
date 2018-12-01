@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".LuckPan.LuckPanActivity" />
-        <activity android:name=".Rundom.RundomActivity"></activity>
+        <activity android:name=".Rundom.RundomActivity" />
+        <activity android:name=".Water.WaterActivity"></activity>
     </application>
 
 </manifest>
