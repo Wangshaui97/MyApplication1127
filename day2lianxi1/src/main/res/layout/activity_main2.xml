@@ -10,14 +10,13 @@
         android:id="@+id/chart_one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"
-
+        android:hint="提示信息"
         />
     <EditText
         android:id="@+id/chart_two"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"
+        android:hint="提示信息"
         app:layout_constraintTop_toBottomOf="@+id/chart_one"
         />
 
@@ -25,7 +24,7 @@
         android:id="@+id/chart_three"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"
+        android:hint="提示信息"
         app:layout_constraintTop_toBottomOf="@+id/chart_two"
         />
     <Button
@@ -56,6 +55,14 @@
         android:text="点击查看瀑布流"
         app:layout_constraintTop_toBottomOf="@+id/rundom_button"
         />
+    <Button
+        android:id="@+id/week_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击查看流式布局"
+        app:layout_constraintTop_toBottomOf="@+id/water_button"
+        />
+
 
 
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".weektest.WeekTestActivity">
+
+    <com.bawei.www.day2lianxi1.weektest.TitleBarView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.bawei.www.day2lianxi1.weektest.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColor="#00ff00"
+        android:text="搜索历史"/>
+
+    <com.bawei.www.day2lianxi1.weektest.WeekFlowLayout
+        android:id="@+id/fl_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.bawei.www.day2lianxi1.weektest.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="热门搜索"/>
+
+    <com.bawei.www.day2lianxi1.weektest.WeekFlowLayout
+        android:id="@+id/fl_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

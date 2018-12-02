@@ -14,5 +14,14 @@
 
     </declare-styleable>
 
+    <declare-styleable name="CustomTurntableView">
+        <!-- name为属性的名字，可以随意起，只要符合规则看得懂 -->
+        <!-- format为属性内容的类型 -->
+        <attr name="text" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="WeekFlowLayout">
+        <attr name="textColor" format="color"></attr>
+    </declare-styleable>
 
 </resources>

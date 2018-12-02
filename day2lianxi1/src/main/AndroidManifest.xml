@@ -19,7 +19,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".LuckPan.LuckPanActivity" />
         <activity android:name=".Rundom.RundomActivity" />
-        <activity android:name=".Water.WaterActivity"></activity>
+        <activity android:name=".Water.WaterActivity"/>
+          <activity android:name=".weektest.WeekTestActivity"/>
     </application>
 
 </manifest>
